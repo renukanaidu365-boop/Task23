@@ -1,21 +1,18 @@
-# Task 23 - AppName Landing Page
+# Task 23 - AppName
 
-## What I Built
-A landing page for AppName with hero section, features, and WaterDemo placeholder.
+## How to Run
+Open index.html in browser
 
-## Sections
-- Hero: "Build Amazing Products Faster"
-- WaterDemo video placeholder
-- 3 Features: Lightning Fast, Secure, Analytics
-- Footer
-- Fixed chat widget
-
-## Positioning Used
-- sticky: Navigation bar
-- fixed: Chat button
+## What I Used
+- sticky: navigation stays at top
+- fixed: chat stays in corner
+- flex-col + lg:flex-row: hero responsive
+- grid-cols-1 + md:grid-cols-3: features responsive
+- flex-col + sm:flex-row: footer responsive
 
 ## Files
-- index.html
-- style.css
-- script.js
-- README.md
+- index.html (all HTML + Tailwind)
+- script.js (mobile menu + chat)
+
+## Live Demo
+https://renukanaidu365-boop.github.io/task23
